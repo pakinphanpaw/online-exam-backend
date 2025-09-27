@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
-const Exam = require("./models/Exam");
-const Category = require("./models/Category");
+const Exam = require("./models/exam");
+const Category = require("./models/category");
 
 async function updateExistingExams() {
   try {
